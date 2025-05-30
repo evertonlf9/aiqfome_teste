@@ -16,11 +16,11 @@ export default function AddOrSubItem({ item, handleQuantityChange }: any) {
           className="text-gray-400 button-plus hover:text-gray-600 border-none"
           onClick={() => handleQuantityChange(item.id, false)}
         >
-          <span className="text-xl">
+          <span className="text-xl" >
             <AiOutlineDelete />
           </span>
         </button>
-        <span className="text-lg">{item.quantity}</span>
+        <span className="text-lg position-relative" style={{top: "-3px", right: "3px"}}>{item.quantity}</span>
         <button
           className="text-[#9333EA] hover:text-purple-700 button-plus button-default"
           onClick={() => handleQuantityChange(item.id, true)}

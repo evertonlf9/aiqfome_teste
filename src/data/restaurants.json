@@ -17,13 +17,65 @@
                 {
                     "id": 1,
                     "name": "Niguiris",
-                    "items": []
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Califórnia",
+                            "description": "Kani, pepino e maçã ou manga",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Filadélfia",
+                            "description": "Arroz, salmão fresco, cream cheese e cebolinha",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Mix",
+                            "description": "Escolha 3 ingredientes: shimeji, alface americana, rúcula, pepino, tomate seco, cream cheese, maionese",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Salmão picante",
+                            "description": "Alga, arroz, salmão fresco, pimenta e cebolinha",
+                            "price": 13.99
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "name": "Ceviches",
                     "description": "um prato super refrescante de peixe fatiado e marinado com limão",
-                    "items": []
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Califórnia",
+                            "description": "Kani, pepino e maçã ou manga",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Filadélfia",
+                            "description": "Arroz, salmão fresco, cream cheese e cebolinha",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Mix",
+                            "description": "Escolha 3 ingredientes: shimeji, alface americana, rúcula, pepino, tomate seco, cream cheese, maionese",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Salmão picante",
+                            "description": "Alga, arroz, salmão fresco, pimenta e cebolinha",
+                            "price": 13.99
+                        }
+                    ]
                 },
                 {
                     "id": 3,
@@ -60,12 +112,64 @@
                 {
                     "id": 4,
                     "name": "Bebidas",
-                    "items": []
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Suco Detox Verde",
+                            "description": "Couve, maçã verde, gengibre e limão",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Smoothie de Frutas Vermelhas",
+                            "description": "Morango, amora, framboesa e iogurte natural",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Chá Gelado Artesanal",
+                            "description": "Escolha entre: hibisco com limão, chá verde com hortelã ou preto com pêssego",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Limonada com Gengibre",
+                            "description": "Limão tahiti, gengibre fresco e água com gás",
+                            "price": 13.99
+                        }
+                    ]
                 },
                 {
                     "id": 5,
                     "name": "Sobremesas",
-                    "items": []
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Brownie com Sorvete",
+                            "description": "Brownie de chocolate com uma bola de sorvete de creme",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Cheesecake de Frutas Vermelhas",
+                            "description": "Base crocante com recheio cremoso e calda de frutas vermelhas",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Taça Tropical",
+                            "description": "Escolha 3 ingredientes: manga, abacaxi, kiwi, morango, granola, mel, iogurte",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Petit Gâteau",
+                            "description": "Bolo de chocolate com recheio cremoso e sorvete de creme",
+                            "price": 13.99
+                        }
+                    ]
                 }
             ]
         },
@@ -86,13 +190,65 @@
                 {
                     "id": 1,
                     "name": "Niguiris",
-                    "items": []
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Califórnia",
+                            "description": "Kani, pepino e maçã ou manga",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Filadélfia",
+                            "description": "Arroz, salmão fresco, cream cheese e cebolinha",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Mix",
+                            "description": "Escolha 3 ingredientes: shimeji, alface americana, rúcula, pepino, tomate seco, cream cheese, maionese",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Salmão picante",
+                            "description": "Alga, arroz, salmão fresco, pimenta e cebolinha",
+                            "price": 13.99
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "name": "Ceviches",
                     "description": "um prato super refrescante de peixe fatiado e marinado com limão",
-                    "items": []
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Califórnia",
+                            "description": "Kani, pepino e maçã ou manga",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Filadélfia",
+                            "description": "Arroz, salmão fresco, cream cheese e cebolinha",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Mix",
+                            "description": "Escolha 3 ingredientes: shimeji, alface americana, rúcula, pepino, tomate seco, cream cheese, maionese",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Salmão picante",
+                            "description": "Alga, arroz, salmão fresco, pimenta e cebolinha",
+                            "price": 13.99
+                        }
+                    ]
                 },
                 {
                     "id": 3,
@@ -129,12 +285,64 @@
                 {
                     "id": 4,
                     "name": "Bebidas",
-                    "items": []
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Suco Detox Verde",
+                            "description": "Couve, maçã verde, gengibre e limão",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Smoothie de Frutas Vermelhas",
+                            "description": "Morango, amora, framboesa e iogurte natural",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Chá Gelado Artesanal",
+                            "description": "Escolha entre: hibisco com limão, chá verde com hortelã ou preto com pêssego",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Limonada com Gengibre",
+                            "description": "Limão tahiti, gengibre fresco e água com gás",
+                            "price": 13.99
+                        }
+                    ]
                 },
                 {
                     "id": 5,
                     "name": "Sobremesas",
-                    "items": []
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Brownie com Sorvete",
+                            "description": "Brownie de chocolate com uma bola de sorvete de creme",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Cheesecake de Frutas Vermelhas",
+                            "description": "Base crocante com recheio cremoso e calda de frutas vermelhas",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Taça Tropical",
+                            "description": "Escolha 3 ingredientes: manga, abacaxi, kiwi, morango, granola, mel, iogurte",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Petit Gâteau",
+                            "description": "Bolo de chocolate com recheio cremoso e sorvete de creme",
+                            "price": 13.99
+                        }
+                    ]
                 }
             ]
         },
@@ -155,13 +363,65 @@
                 {
                     "id": 1,
                     "name": "Niguiris",
-                    "items": []
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Califórnia",
+                            "description": "Kani, pepino e maçã ou manga",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Filadélfia",
+                            "description": "Arroz, salmão fresco, cream cheese e cebolinha",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Mix",
+                            "description": "Escolha 3 ingredientes: shimeji, alface americana, rúcula, pepino, tomate seco, cream cheese, maionese",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Salmão picante",
+                            "description": "Alga, arroz, salmão fresco, pimenta e cebolinha",
+                            "price": 13.99
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "name": "Ceviches",
                     "description": "um prato super refrescante de peixe fatiado e marinado com limão",
-                    "items": []
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Califórnia",
+                            "description": "Kani, pepino e maçã ou manga",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Filadélfia",
+                            "description": "Arroz, salmão fresco, cream cheese e cebolinha",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Mix",
+                            "description": "Escolha 3 ingredientes: shimeji, alface americana, rúcula, pepino, tomate seco, cream cheese, maionese",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Salmão picante",
+                            "description": "Alga, arroz, salmão fresco, pimenta e cebolinha",
+                            "price": 13.99
+                        }
+                    ]
                 },
                 {
                     "id": 3,
@@ -198,12 +458,64 @@
                 {
                     "id": 4,
                     "name": "Bebidas",
-                    "items": []
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Suco Detox Verde",
+                            "description": "Couve, maçã verde, gengibre e limão",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Smoothie de Frutas Vermelhas",
+                            "description": "Morango, amora, framboesa e iogurte natural",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Chá Gelado Artesanal",
+                            "description": "Escolha entre: hibisco com limão, chá verde com hortelã ou preto com pêssego",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Limonada com Gengibre",
+                            "description": "Limão tahiti, gengibre fresco e água com gás",
+                            "price": 13.99
+                        }
+                    ]
                 },
                 {
                     "id": 5,
                     "name": "Sobremesas",
-                    "items": []
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Brownie com Sorvete",
+                            "description": "Brownie de chocolate com uma bola de sorvete de creme",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Cheesecake de Frutas Vermelhas",
+                            "description": "Base crocante com recheio cremoso e calda de frutas vermelhas",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Taça Tropical",
+                            "description": "Escolha 3 ingredientes: manga, abacaxi, kiwi, morango, granola, mel, iogurte",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Petit Gâteau",
+                            "description": "Bolo de chocolate com recheio cremoso e sorvete de creme",
+                            "price": 13.99
+                        }
+                    ]
                 }
             ]
         },
@@ -224,13 +536,65 @@
                 {
                     "id": 1,
                     "name": "Niguiris",
-                    "items": []
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Califórnia",
+                            "description": "Kani, pepino e maçã ou manga",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Filadélfia",
+                            "description": "Arroz, salmão fresco, cream cheese e cebolinha",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Mix",
+                            "description": "Escolha 3 ingredientes: shimeji, alface americana, rúcula, pepino, tomate seco, cream cheese, maionese",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Salmão picante",
+                            "description": "Alga, arroz, salmão fresco, pimenta e cebolinha",
+                            "price": 13.99
+                        }
+                    ]
                 },
                 {
                     "id": 2,
                     "name": "Ceviches",
                     "description": "um prato super refrescante de peixe fatiado e marinado com limão",
-                    "items": []
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Califórnia",
+                            "description": "Kani, pepino e maçã ou manga",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Filadélfia",
+                            "description": "Arroz, salmão fresco, cream cheese e cebolinha",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Mix",
+                            "description": "Escolha 3 ingredientes: shimeji, alface americana, rúcula, pepino, tomate seco, cream cheese, maionese",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Salmão picante",
+                            "description": "Alga, arroz, salmão fresco, pimenta e cebolinha",
+                            "price": 13.99
+                        }
+                    ]
                 },
                 {
                     "id": 3,
@@ -267,12 +631,64 @@
                 {
                     "id": 4,
                     "name": "Bebidas",
-                    "items": []
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Suco Detox Verde",
+                            "description": "Couve, maçã verde, gengibre e limão",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Smoothie de Frutas Vermelhas",
+                            "description": "Morango, amora, framboesa e iogurte natural",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Chá Gelado Artesanal",
+                            "description": "Escolha entre: hibisco com limão, chá verde com hortelã ou preto com pêssego",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Limonada com Gengibre",
+                            "description": "Limão tahiti, gengibre fresco e água com gás",
+                            "price": 13.99
+                        }
+                    ]
                 },
                 {
                     "id": 5,
                     "name": "Sobremesas",
-                    "items": []
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Brownie com Sorvete",
+                            "description": "Brownie de chocolate com uma bola de sorvete de creme",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Cheesecake de Frutas Vermelhas",
+                            "description": "Base crocante com recheio cremoso e calda de frutas vermelhas",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Taça Tropical",
+                            "description": "Escolha 3 ingredientes: manga, abacaxi, kiwi, morango, granola, mel, iogurte",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Petit Gâteau",
+                            "description": "Bolo de chocolate com recheio cremoso e sorvete de creme",
+                            "price": 13.99
+                        }
+                    ]
                 }
             ]
         }

@@ -212,6 +212,7 @@ export default function ItemDetail() {
                 <div className="flex items-center gap-2">
                   <button
                     onClick={() => handleDrinkQuantityChange(drink, false)}
+                    
                     className={
                       drinkQuantities[drink.id] > 0
                         ? "button-default button-plus"
@@ -220,7 +221,7 @@ export default function ItemDetail() {
                   >
                     <AiOutlineMinus className="svg-default" />
                   </button>
-                  <span className="w-4 text-center">
+                  <span className="w-4 text-center position-relative" style={{top: "-3px"}}>
                     {drinkQuantities[drink.id] || 0}
                   </span>
                   <button

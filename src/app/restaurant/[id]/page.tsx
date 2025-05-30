@@ -5,16 +5,16 @@ import { BiCycling } from "react-icons/bi";
 import { getDataJson } from "@/utils";
 import RenderItens from "@/components/renderItens";
 
-export default async function Restaurant({
-  params,
-}: {
+interface PageProps {
   params: { id: string };
-}) {
-  const data = getDataJson();
-  const id = parseInt(params?.id);
+}
 
-  const restaurant = await data.restaurants.find(
-    (restaurant: any) => restaurant.id === id
+export default async function Restaurant({ params }: PageProps) {
+  const data = await getDataJson();
+  const { id } = await params;
+
+  const restaurant = data.restaurants.find(
+    (restaurant: any) => restaurant.id === parseInt(id)
   );
   return (
     <div className="max-w-2xl mx-auto bg-white min-h-screen">
@@ -63,7 +63,10 @@ export default async function Restaurant({
         </div>
       </div>
 
-      <RenderItens restaurantId={restaurant.id} categories={restaurant?.categories} />
+      <RenderItens
+        restaurantId={restaurant.id}
+        categories={restaurant?.categories}
+      />
     </div>
   );
 }
