@@ -23,7 +23,7 @@ const Listitem = ({
   restaurants: Restaurant[];
   data?: any;
 }) => {
-  const { filter, setHiddenFilter } = useAppContext();
+  const { filter, handleHiddenFilterChange } = useAppContext();
 
   const [listRestaurants, setListRestaurants] = useState<Restaurant[]>([]);
 
@@ -41,7 +41,7 @@ const Listitem = ({
 
   const handlerClickItem = (restaurant: Restaurant) => {
     if (restaurant.status === "open") {
-      setHiddenFilter(true)
+      handleHiddenFilterChange(true)
       redirect(`/restaurant/${restaurant.id}`);
     }
   };

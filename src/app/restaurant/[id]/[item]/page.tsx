@@ -7,6 +7,8 @@ import { Input } from "antd";
 
 import MenuOptions from "@/components/menuOptions";
 import { useItemContext } from "@/context/itemContext";
+import { redirect } from "next/navigation";
+import AddOrSubItem from "@/components/addOrSubItem";
 
 const { TextArea } = Input;
 
@@ -27,6 +29,13 @@ export default function ItemDetail() {
   } = useItemContext();
 
   const [data, setData] = useState<any>({});
+  const [itemData, setItemData] = useState<any>({
+    id: 1,
+    name: "Ceviche de salmão",
+    basePrice: 19.9,
+    quantity: 1,
+    description: "salmão temperado com limão, cebola e pimenta",
+  });
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -34,18 +43,9 @@ export default function ItemDetail() {
     }
   }, []);
 
-  const itemData = {
-    name: "Ceviche de salmão",
-    basePrice: 19.9,
-    description: "salmão temperado com limão, cebola e pimenta",
-  };
-
   const handlerSelectedSize = (size: any) => {
-    if (selectedSize?.price) {
-      setTtotal(total - selectedSize.price);
-    }
     setSelectedSize(size);
-    setTtotal(total + size.price);
+    setTtotal(total + (itemData.quantity * (size.price - (selectedSize?.price || 0))));
   };
 
   const handlerSelectedCutlery = (cutlery: any) => {
@@ -94,6 +94,19 @@ export default function ItemDetail() {
     }
   };
 
+  const handleQuantityChange = (id: number, increment: boolean) => {
+    const value = selectedSize?.price || itemData.basePrice;
+    if (increment) {
+      itemData.quantity += 1;
+      setTtotal(total + value);
+    } else if (itemData.quantity > 0) {
+      itemData.quantity -= 1;
+      setTtotal(total - value);
+    }
+
+    setItemData({ ...itemData });
+  };
+
   return (
     <div className="max-w-2xl mx-auto">
       <Image
@@ -124,9 +137,18 @@ export default function ItemDetail() {
             <h2 className="text-base font-medium text-[#393A3C] font-bold">
               quantos?
             </h2>
-            <button className="mt-4 bg-[#6D6F73] text-white py-2 px-4 rounded-md border-none">
-              adicionar
-            </button>
+            {!selectedSize && (
+              <button className="mt-4 bg-[#6D6F73] text-white py-2 px-4 rounded-md border-none">
+                adicionar
+              </button>
+            )}
+
+            {selectedSize && (
+              <AddOrSubItem
+                item={itemData}
+                handleQuantityChange={handleQuantityChange}
+              />
+            )}
           </div>
           <span className="text-[#1a1a1a]">
             total{" "}
@@ -271,16 +293,18 @@ export default function ItemDetail() {
           style={{ resize: "none" }}
         />
 
-        {/* <div className="fixed bottom-0 left-0 right-0 bg-white  pl-4 pr-4 pb-6 shadow-lg">
-        <div className="max-w-2xl mx-auto flex justify-between items-center">
-          <button
-            className="bg-[#9333EA] w-full text-white py-3 border-none rounded-lg font-medium hover:bg-purple-700 transition-colors"
-            onClick={() => {}}
-          >
-            ver ticket
-          </button>
-        </div>
-      </div> */}
+        {selectedAccompaniments?.length > 0 && (
+          <div className="fixed bottom-0 left-0 right-0 bg-white  pl-4 pr-4 pb-6 shadow-lg">
+            <div className="max-w-2xl mx-auto flex justify-between items-center">
+              <button
+                className="bg-[#9333EA] w-full text-white py-3 border-none rounded-lg font-medium hover:bg-purple-700 transition-colors cursor-pointer"
+                onClick={() => redirect(`/cart`)}
+              >
+                ver ticket
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
