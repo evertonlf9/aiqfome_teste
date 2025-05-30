@@ -25,7 +25,7 @@
 Primeiro é preciso que efetue a clonagem do repositório para o seu computador para assim efetuar alterações de código.
 **clone or download** e copiar a URL do respositório.
 
-Já abrindo o bash do Git para efetuar a clonagem será necessário que digite a seguinte linha de código e informe a URL copiada anteriormente:
+Já abrindo o **bash do Git** ou **Prompt de Comando** para efetuar a clonagem será necessário que digite a seguinte linha de código e informe a URL copiada anteriormente:
 git clone <url-do-repositorio>
 
 ### Instalando as Dependências
