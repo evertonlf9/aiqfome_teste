@@ -5,6 +5,7 @@
 ## Conteúdo
 
 [Tecnologias](#tecnologias)
+[Informações Iniciais](#informações-iniciais)
 [Clonando o Repositório](#clonando-o-repositório)
 [Instalando as Dependências](#instalando-as-dependências)
 [Servidor de Desenvolvimento](#servidor-de-desenvolvimento)
@@ -19,6 +20,12 @@
   - [Typescrip] (https://www.typescriptlang.org/)
   - [React] (https://react.dev/)
   - [Ant Design](https://ant.design/)
+
+## Informações Iniciais
+Para realizar as passos a seguir, será necessário que tenha instalado em seu computador o **git** e o **node.js**. Abaixo seguem os sites para realizar o download e efetuar a instalação:
+- [Git](https://git-scm.com/downloads)
+- [Node.js - Windows/Mac](https://nodejs.org/en/download/)
+- [Node.js - Linux](https://nodejs.org/en/download/package-manager/)
 
 ### Clonando o Repositório
 
