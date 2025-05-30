@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  margin: 0 !important;
+}
+
+.ant-btn-primary {
+  background-color: theme("colors.primary");
+}
+
+.ant-btn-primary:hover {
+  background-color: theme("colors.primary-dark") !important;
+}
+
+.text-primary {
+  color: theme("colors.primary");
+}
+
+.text-footer-color {
+  color: #580f78;
+}
+
+.text-color-default {
+  color: #7b1fa2;
+}
+
+.header-color {
+  background-color: #7b1fa2 !important;
+}
+
+.ant-collapse-expand-icon {
+  position: relative;
+  left: 94%;
+}
+
+.icon-dollar {
+  color: #02a117;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  padding: 12px 4px !important;
+}
+
+.ant-collapse-header-text {
+  position: relative;
+  right: 13px;
+}
+
+.price-item {
+  position: relative;
+  top: 10px;
+  left: 22px;
+  font-size: 12px;
+}
+
+.crusor-pointer {
+  cursor: pointer;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.button-default {
+  border-radius: 20px;
+  height: 24px;
+  width: 24px;
+}
+
+.svg-default {
+  right: 2px;
+  position: relative;
+}
+
+.bg-color {
+  background-color: #00a296;
+}
+
+.button-plus {
+  color: #00a296 !important;
+  border-color: #00a296;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #00a296;
+  border-color: #00a296;
+}
+
+.ant-checkbox-checked::after {
+  border-color: #00a296;
+}
+
+@media (max-width: 640px) {
+  .ant-form-item {
+    margin-bottom: 16px;
+  }
+}
+
+.ant-layout {
+  background: rgb(var(--background-rgb));
+}
+
+.height-fixed {
+  height: 128px !important;
+}
+
+header {
+  line-height: 1.5 !important;
+  min-height: 64px !important;
+  padding: 0 16px !important;
+  background-color: #7b1fa2 !important;
+}
+
+.header-padding {
+  padding: 14px 10px;
+}
+
+.ant-layout-footer {
+  padding: 10px 10px !important;
+}
+
+.ant-typography {
+  color: rgb(var(--foreground-rgb));
+}
+
+.ant-card {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.ant-card-hoverable:hover {
+  transform: translateY(-4px);
+  box-shadow: theme("boxShadow.custom");
+}

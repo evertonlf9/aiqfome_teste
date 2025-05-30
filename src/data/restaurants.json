@@ -1,0 +1,423 @@
+{
+    "restaurants": [
+        {
+            "id": 1,
+            "name": "Matsuri Concept",
+            "logo": "/initial/matsuri.png",
+            "rating": 4.7,
+            "status": "open",
+            "delivery": "grátis",
+            "delivery_fee": 4.99,
+            "delivery_time": "30-40 min",
+            "distance": "5.2km",
+            "min_order": 15.0,
+            "closing_time": "20: 00",
+            "free_delivery_above": 35.0,
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Niguiris",
+                    "items": []
+                },
+                {
+                    "id": 2,
+                    "name": "Ceviches",
+                    "description": "um prato super refrescante de peixe fatiado e marinado com limão",
+                    "items": []
+                },
+                {
+                    "id": 3,
+                    "name": "Temakis",
+                    "description": "sushi em forma de cone com salmão e cream cheese",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Califórnia",
+                            "description": "Kani, pepino e maçã ou manga",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Filadélfia",
+                            "description": "Arroz, salmão fresco, cream cheese e cebolinha",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Mix",
+                            "description": "Escolha 3 ingredientes: shimeji, alface americana, rúcula, pepino, tomate seco, cream cheese, maionese",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Salmão picante",
+                            "description": "Alga, arroz, salmão fresco, pimenta e cebolinha",
+                            "price": 13.99
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Bebidas",
+                    "items": []
+                },
+                {
+                    "id": 5,
+                    "name": "Sobremesas",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Subway - Avenida center",
+            "logo": "/initial/subway.png",
+            "rating": 4.7,
+            "status": "open",
+            "delivery": "R$6,00",
+            "delivery_fee": 4.99,
+            "delivery_time": "30-40 min",
+            "distance": "5.2km",
+            "min_order": 15.0,
+            "closing_time": "20: 00",
+            "free_delivery_above": 35.0,
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Niguiris",
+                    "items": []
+                },
+                {
+                    "id": 2,
+                    "name": "Ceviches",
+                    "description": "um prato super refrescante de peixe fatiado e marinado com limão",
+                    "items": []
+                },
+                {
+                    "id": 3,
+                    "name": "Temakis",
+                    "description": "sushi em forma de cone com salmão e cream cheese",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Califórnia",
+                            "description": "Kani, pepino e maçã ou manga",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Filadélfia",
+                            "description": "Arroz, salmão fresco, cream cheese e cebolinha",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Mix",
+                            "description": "Escolha 3 ingredientes: shimeji, alface americana, rúcula, pepino, tomate seco, cream cheese, maionese",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Salmão picante",
+                            "description": "Alga, arroz, salmão fresco, pimenta e cebolinha",
+                            "price": 13.99
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Bebidas",
+                    "items": []
+                },
+                {
+                    "id": 5,
+                    "name": "Sobremesas",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Burger King - Colombo",
+            "logo": "/initial/bk.png",
+            "rating": 4.7,
+            "status": "open",
+            "delivery": "R$6,00",
+            "delivery_fee": 4.99,
+            "delivery_time": "30-40 min",
+            "distance": "5.2km",
+            "min_order": 15.0,
+            "closing_time": "20: 00",
+            "free_delivery_above": 35.0,
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Niguiris",
+                    "items": []
+                },
+                {
+                    "id": 2,
+                    "name": "Ceviches",
+                    "description": "um prato super refrescante de peixe fatiado e marinado com limão",
+                    "items": []
+                },
+                {
+                    "id": 3,
+                    "name": "Temakis",
+                    "description": "sushi em forma de cone com salmão e cream cheese",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Califórnia",
+                            "description": "Kani, pepino e maçã ou manga",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Filadélfia",
+                            "description": "Arroz, salmão fresco, cream cheese e cebolinha",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Mix",
+                            "description": "Escolha 3 ingredientes: shimeji, alface americana, rúcula, pepino, tomate seco, cream cheese, maionese",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Salmão picante",
+                            "description": "Alga, arroz, salmão fresco, pimenta e cebolinha",
+                            "price": 13.99
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Bebidas",
+                    "items": []
+                },
+                {
+                    "id": 5,
+                    "name": "Sobremesas",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "McDonald's - Novo Centro",
+            "logo": "/initial/mequi.png",
+            "rating": 4.7,
+            "status": "open",
+            "delivery": "grátis",
+            "delivery_fee": 4.99,
+            "delivery_time": "30-40 min",
+            "distance": "5.2km",
+            "min_order": 15.0,
+            "closing_time": "20: 00",
+            "free_delivery_above": 35.0,
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Niguiris",
+                    "items": []
+                },
+                {
+                    "id": 2,
+                    "name": "Ceviches",
+                    "description": "um prato super refrescante de peixe fatiado e marinado com limão",
+                    "items": []
+                },
+                {
+                    "id": 3,
+                    "name": "Temakis",
+                    "description": "sushi em forma de cone com salmão e cream cheese",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "Califórnia",
+                            "description": "Kani, pepino e maçã ou manga",
+                            "price": 17.0,
+                            "promotional_price": 13.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "Filadélfia",
+                            "description": "Arroz, salmão fresco, cream cheese e cebolinha",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 3,
+                            "name": "Mix",
+                            "description": "Escolha 3 ingredientes: shimeji, alface americana, rúcula, pepino, tomate seco, cream cheese, maionese",
+                            "price": 13.99
+                        },
+                        {
+                            "id": 4,
+                            "name": "Salmão picante",
+                            "description": "Alga, arroz, salmão fresco, pimenta e cebolinha",
+                            "price": 13.99
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Bebidas",
+                    "items": []
+                },
+                {
+                    "id": 5,
+                    "name": "Sobremesas",
+                    "items": []
+                }
+            ]
+        }
+    ],
+    "closeRestaurants": [
+        {
+            "id": 1,
+            "name": "Matsuri Concept",
+            "logo": "/initial/matsuri.png",
+            "rating": 4.7,
+            "status": "close",
+            "delivery": "grátis",
+            "delivery_fee": 4.99,
+            "delivery_time": "30-40 min",
+            "distance": "5.2km",
+            "min_order": 15.0,
+            "closing_time": "20: 00",
+            "free_delivery_above": 35.0
+        },
+        {
+            "id": 2,
+            "name": "Subway - Avenida center",
+            "logo": "/initial/subway.png",
+            "rating": 4.7,
+            "status": "close",
+            "delivery": "R$6,00",
+            "delivery_fee": 4.99,
+            "delivery_time": "30-40 min",
+            "distance": "5.2km",
+            "min_order": 15.0,
+            "closing_time": "20: 00",
+            "free_delivery_above": 35.0
+        },
+        {
+            "id": 3,
+            "name": "Burger King - Colombo",
+            "logo": "/initial/bk.png",
+            "rating": 4.7,
+            "status": "close",
+            "delivery": "R$6,00",
+            "delivery_fee": 4.99,
+            "delivery_time": "30-40 min",
+            "distance": "5.2km",
+            "min_order": 15.0,
+            "closing_time": "20: 00",
+            "free_delivery_above": 35.0
+        },
+        {
+            "id": 4,
+            "name": "McDonald's - Novo Centro",
+            "logo": "/initial/mequi.png",
+            "rating": 4.7,
+            "status": "close",
+            "delivery": "grátis",
+            "delivery_fee": 4.99,
+            "delivery_time": "30-40 min",
+            "distance": "5.2km",
+            "min_order": 15.0,
+            "closing_time": "20: 00",
+            "free_delivery_above": 35.0
+        }
+    ],
+    "sizes": [
+        {
+            "id": 1,
+            "name": "médio",
+            "price": 19.9
+        },
+        {
+            "id": 2,
+            "name": "grande",
+            "price": 28.9
+        }
+    ],
+    "accompaniments": [
+        {
+            "id": 1,
+            "name": "shoyu"
+        },
+        {
+            "id": 2,
+            "name": "gengibre"
+        },
+        {
+            "id": 3,
+            "name": "wasabi"
+        },
+        {
+            "id": 4,
+            "name": "sem acompanhamentos"
+        }
+    ],
+    "drinks": [
+        {
+            "id": 1,
+            "name": "coca-cola",
+            "price": 5.0
+        },
+        {
+            "id": 2,
+            "name": "fanta laranja",
+            "price": 5.0
+        },
+        {
+            "id": 3,
+            "name": "guaraná antarctica",
+            "price": 5.0
+        },
+        {
+            "id": 4,
+            "name": "suco prats laranja",
+            "price": 6.0
+        },
+        {
+            "id": 5,
+            "name": "água sem gás",
+            "price": 3.0
+        }
+    ],
+    "cutlery": [
+        {
+            "id": 1,
+            "name": "hashi"
+        },
+        {
+            "id": 2,
+            "name": "garfo e faca descartável",
+            "price": 1.0
+        }
+    ],
+    "extras": [
+        {
+            "id": 1,
+            "name": "biscoito da sorte",
+            "price": 2.0
+        },
+        {
+            "id": 2,
+            "name": "rolinho primavera",
+            "price": 5.0
+        },
+        {
+            "id": 3,
+            "name": "gyoza",
+            "price": 5.0
+        }
+    ]
+}
