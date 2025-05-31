@@ -14,6 +14,7 @@ export default async function Home() {
           alt="Promoção: Rango barato no dia das crianças"
           fill
           priority
+          className="mt-1"
         />
       </div>
       <h2 className="text-xl font-medium mb-4 pl-4 font-extrabold text-color-default">

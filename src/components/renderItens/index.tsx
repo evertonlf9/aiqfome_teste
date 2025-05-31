@@ -14,7 +14,7 @@ export default function RenderItens({categories, restaurantId }: {categories: an
         key: category.id,
         label: (
           <div>
-            <p className="m-0">
+            <p className="m-0 font-bold">
               {category.name}
               <DollarOutlined className="icon-dollar ml-2" />
             </p>
@@ -29,11 +29,11 @@ export default function RenderItens({categories, restaurantId }: {categories: an
                 onClick={() => handlerClickSelectItem(item)}
                 className="crusor-pointer"              
               >
-                <div>
+                <div className="flex items-center justify-between h-[auto] font-semibold text-sm">
                   <span>{item.name}</span>
                 </div>
-                <div className="flex items-center justify-between">
-                  <p className="w-[250px]">{item.description}</p>
+                <div className="flex items-center justify-between h-[auto]" style={{ marginTop: "-20px" }}>
+                  <p className="w-[250px] leading-normal text-[#6D6F73] font-normal">{item.description}</p>
                   <div>
                     <span
                       className={
@@ -46,7 +46,7 @@ export default function RenderItens({categories, restaurantId }: {categories: an
                     </span>
   
                     {item?.promotional_price && (
-                      <p className="mt-2 text-[#00A6E6]">
+                      <p className="mt-2 icon-dollar">
                         <DollarOutlined className="icon-dollar mr-2" />
                         R$ {item.promotional_price.toFixed(2)}
                       </p>

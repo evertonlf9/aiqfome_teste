@@ -95,13 +95,13 @@ export default function CartPage() {
   }, 0);
 
   return (
-    <div className="max-w-2xl mx-auto p-2">
+    <div className="max-w-7xl mx-auto p-2">
       <Header restaurant={restaurant} />
 
-      <div className="space-y-6">
+      <div className="space-y-1">
         {items.map((item) => (
-          <div key={item.id} className="bg-white rounded-lg shadow-sm">
-            <div className="flex justify-between items-center mb-1">
+          <div key={item.id} className="bg-white rounded-lg shadow-sm pb-2">
+            <div className="flex justify-between items-center">
               <h2 className="text-lg">{item.name}</h2>
               <span className="text-[#9333EA] font-medium">
                 R$ {item.price.toFixed(2)}

@@ -41,7 +41,7 @@ const Listitem = ({
 
   const handlerClickItem = (restaurant: Restaurant) => {
     if (restaurant.status === "open") {
-      handleHiddenFilterChange(true)
+      handleHiddenFilterChange(true);
       redirect(`/restaurant/${restaurant.id}`);
     }
   };
@@ -57,7 +57,7 @@ const Listitem = ({
   };
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-1">
       {listRestaurants?.map((restaurant) => (
         <div
           key={restaurant.id}
@@ -85,13 +85,19 @@ const Listitem = ({
                   {restaurant.delivery}
                 </span>
               ) : (
-                <span className="flex items-center text-sm text-[#666666]">
+                <span className="flex items-center text-sm text-color-default font-bold">
                   <BiCycling className="mr-1" />
                   {restaurant.delivery}
                 </span>
               )}
+              <span
+                className="flex items-center text-sm text-[#FFB300]"
+                style={{ fontSize: "18px" }}
+              >
+                ★
+              </span>
               <span className="flex items-center text-sm text-[#666666]">
-                ★ {restaurant.rating}
+                {restaurant.rating}
               </span>
             </div>
           </div>

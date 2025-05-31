@@ -17,7 +17,7 @@ export default async function Restaurant({ params }: PageProps) {
     (restaurant: any) => restaurant.id === parseInt(id)
   );
   return (
-    <div className="max-w-2xl mx-auto bg-white min-h-screen">
+    <div className="max-w-7xl mx-auto bg-white min-h-screen">
       <div className="p-4">
         <div className="flex items-start gap-4">
           <div className="w-12 h-12 relative rounded-lg overflow-hidden bg-[#FF6B00]">
@@ -36,28 +36,29 @@ export default async function Restaurant({ params }: PageProps) {
         </div>
 
         <div className="flex items-center gap-4 mt-2">
-          <AiOutlineShareAlt className="text-2xl text-gray-600" />
-          <AiOutlineHeart className="text-2xl text-gray-600" />
-          <span className="text-[#00A6E6] ml-auto">mais infos ›</span>
+          <AiOutlineShareAlt className="text-2xl text-gray-600 text-color-default" />
+          <AiOutlineHeart className="text-2xl text-gray-600 text-color-default" />
+          <span className="text-color-primary ml-auto">mais infos ›</span>
         </div>
 
         <div className="mt-4 space-y-2 text-sm text-[#666666]">
           <div className="flex items-center gap-2">
-            <BiCycling className="text-lg" />
-            <span>R$ {restaurant.delivery_fee.toFixed(2)}</span>
+            <BiCycling className="text-lg text-color-default" />
+            <span className="text-color-default">R$ {restaurant.delivery_fee.toFixed(2)}</span>
             <span>•</span>
             <span>{restaurant.delivery_time}</span>
             <span>•</span>
             <span>{restaurant.distance}</span>
           </div>
-          <p className="text-[#00A650]">
+          <p className="text-color-primary">
             entrega grátis acima de R${" "}
             {restaurant.free_delivery_above.toFixed(2)}
           </p>
           <div className="flex items-center gap-2">
-            <span>★ {restaurant.rating} de 5</span>
+            <span className="text-[#FFB300]">★</span>
+            <span>{restaurant.rating} de 5</span>
             <span>•</span>
-            <span>fecha às {restaurant.closing_time}</span>
+            <span className="icon-dollar">fecha às {restaurant.closing_time}</span>
           </div>
           <p>pedido mínimo: R$ {restaurant.min_order.toFixed(2)}</p>
         </div>

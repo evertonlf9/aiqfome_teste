@@ -4,7 +4,7 @@ export default function Item({ title, itens }: { title: string; itens: any }) {
       return (
         <div key={index} className="flex items-center justify-between ml-2 m-0">
           <p className="text-sm m-0">{item.name}</p>
-          <span className="text-[#9333EA] text-sm">
+          <span className="text-color-primary text-sm">
             +R${item.price.toFixed(2)}
           </span>
         </div>
@@ -19,7 +19,7 @@ export default function Item({ title, itens }: { title: string; itens: any }) {
   };
 
   return (
-    <div className="mt-2">
+    <div>
       <p className="text-sm text-gray-600 m-0">{title}</p>
       {itens?.map((item: any, index: number) => renderItem(item, index))}
     </div>

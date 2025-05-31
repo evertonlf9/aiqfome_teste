@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Layout, ConfigProvider, Input } from "antd";
 import { StyleProvider } from "@ant-design/cssinjs";
 import {
@@ -8,6 +9,7 @@ import {
   SearchOutlined,
 } from "@ant-design/icons";
 import { useAppContext } from "@/context/appContext";
+import { Suspense } from "react";
 
 const { Header, Content, Footer } = Layout;
 
@@ -30,10 +32,13 @@ export default function ClientLayout({
             }
           >
             <div className="flex items-center justify-between header-padding">
-              <img
+              <Image
                 src="/aiqfome-svgrepo-com.svg"
                 alt="Logo"
                 className="w-8 h-8"
+                width={32}
+                height={32}
+                style={{ objectFit: "contain" }}
               />
               <div className="flex items-center gap-2">
                 <div className="flex items-center text-white gap-2">
@@ -63,7 +68,11 @@ export default function ClientLayout({
               </div>
             )}
           </Header>
-          <Content>{children}</Content>
+          <Content>
+            <Suspense fallback={<div>Carregando conteúdo...</div>}>
+              {children}
+            </Suspense>
+          </Content>
           <Footer className="text-center bg-white h-[100px] flex flex-col justify-center">
             <span className="text-footer-color font-bold mb-2 text-[14px]">
               feito com 💜 em maringá-PR

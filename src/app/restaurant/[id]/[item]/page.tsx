@@ -108,7 +108,7 @@ export default function ItemDetail() {
   };
 
   return (
-    <div className="max-w-2xl mx-auto">
+    <div className="max-w-7xl mx-auto">
       <Image
         src="/prato.png"
         alt="Prato"
@@ -117,7 +117,7 @@ export default function ItemDetail() {
         style={{ objectFit: "contain" }}
       />
       <div className="pl-4 pr-4">
-        <div className="max-w-2xl  bg-white pl-2 pt-1 space-y-2">
+        <div className="max-w-7xl  bg-white pl-2 pt-1 space-y-2">
           <div className="flex justify-between items-start">
             <h1 className="text-xl font-medium text-[#1a1a1a]">
               {itemData.name}
@@ -215,8 +215,8 @@ export default function ItemDetail() {
                     
                     className={
                       drinkQuantities[drink.id] > 0
-                        ? "button-default button-plus"
-                        : "button-default"
+                        ? "button-default button-plus cursor-pointer"
+                        : "button-default cursor-pointer"
                     }
                   >
                     <AiOutlineMinus className="svg-default" />
@@ -226,7 +226,7 @@ export default function ItemDetail() {
                   </span>
                   <button
                     onClick={() => handleDrinkQuantityChange(drink, true)}
-                    className="button-plus button-default"
+                    className="button-plus button-default cursor-pointer"
                   >
                     <AiOutlinePlus className="svg-default" />
                   </button>
@@ -290,13 +290,13 @@ export default function ItemDetail() {
         <TextArea
           rows={4}
           placeholder="alguma observação?  * opcional ex: tirar algum ingrediente, ponto do prato"
-          className="mt-2"
+          className="mt-10"
           style={{ resize: "none" }}
         />
 
         {selectedAccompaniments?.length > 0 && (
           <div className="fixed bottom-0 left-0 right-0 bg-white  pl-4 pr-4 pb-6 shadow-lg">
-            <div className="max-w-2xl mx-auto flex justify-between items-center">
+            <div className="max-w-7xl mx-auto flex justify-between items-center">
               <button
                 className="bg-[#9333EA] w-full text-white py-3 border-none rounded-lg font-medium hover:bg-purple-700 transition-colors cursor-pointer"
                 onClick={() => redirect(`/cart`)}
